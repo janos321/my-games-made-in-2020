@@ -1,262 +1,118 @@
-\# 🎮 Game Projects by Horváth János
-
-
+# 🎮 Game Projects — saját fejlesztésű játékaim
 
 Ez a repó a saját fejlesztésű játékaim válogatása.  
+Célom nem csak szórakoztató játékokat készíteni, hanem:
 
-Mindegyik projekt célja nem csupán a játékélmény, hanem:
-
-
-
-\- algoritmikus gondolkodás fejlesztése  
-
-\- valós problémák megoldása  
-
-\- tiszta, jól strukturált kód írása  
-
-\- használható, élvezetes termék készítése
-
-
-
-Technológiák, amelyekkel dolgoztam:
-
-
-
-\- \*\*C#\*\*
-
-\- \*\*Unity\*\*
-
-\- \*\*Visual Studio\*\*
-
-\- OOP (objektumorientált tervezés)
-
-\- állapotkezelés, eseménykezelés
-
-\- UI-logika és játékmechanikák
-
-
+- algoritmikus gondolkodást fejleszteni  
+- valós problémákat megoldani  
+- tiszta, jól strukturált kódot írni  
+- használható, élvezetes termékeket építeni
 
 ---
 
+## 🧮 BMath — játékos matematika tanulás
 
+**Platform:** Unity  
+**Nyelv:** C#  
+**Célcsoport:** középiskola (9. osztály)  
+**Státusz:** korábban elérhető volt a Google Play Áruházban és tanórán is használták
 
-\## 🧮 BMath — játékos matematika tanulás (Google Play, valós használat)
+A **BMath** egy oktató játék, amely játékos formában tanítja a matematikát:
 
+- gyökvonás  
+- hatványozás  
+- fokozatosan nehezedő feladatok  
+- folyamatos visszajelzés
 
+A projekt egy tanár kérésére készült, kifejezetten tanórai használatra,  
+és valós diákok rendszeresen játszották.
 
-\*\*Platform:\*\* Unity  
+### 🎨 Saját design
 
-\*\*Nyelv:\*\* C#  
+A teljes UI-t és grafikát **én terveztem Photoshopban**:
 
-\*\*Célcsoport:\*\* középiskola (9. osztály)  
+- gyerekbarát, jól érthető felület  
+- letisztult ikonok és színek  
+- motiváló elrendezés
 
-\*\*Státusz:\*\* korábban elérhető volt a Google Play Áruházban és aktívan használták tanórán
+### 🏆 Ranglista és motiváció
 
+- leaderboard (ranglista)
+- pontgyűjtés
+- verseny a diákok között
+- tanulás közben játékélmény
 
+### Fejlesztői fókusz
 
-A \*\*BMath\*\* egy oktató játék, amely játékos formában tanítja az összetettebb matematikát:
-
-
-
-\- gyökvonás  
-
-\- hatványozás  
-
-\- fokozatosan nehezedő feladatok  
-
-\- folyamatos visszajelzés
-
-
-
-A projekt egy \*\*tanár kérésére\*\* készült, kifejezetten tanórai használatra, és valós diákok játszották.
-
-
-
-\### 🎨 Saját UI / Design
-
-A teljes felületet és grafikát \*\*én terveztem Photoshopban\*\*:
-
-
-
-\- gyerekbarát, könnyen érthető dizájn  
-
-\- letisztult ikonok és színek  
-
-\- motiváló felépítés  
-
-
-
-\### 🏆 Gamification és versenyélmény
-
-\- ranglista (leaderboard)
-
-\- pontgyűjtés
-
-\- diákok egymással versenyezhettek
-
-\- közben észrevétlenül tanultak
-
-
-
-\### 👨‍💻 Fejlesztői fókusz
-
-\- moduláris feladatgenerátor
-
-\- logika és UI tiszta szétválasztása
-
-\- hibakezelés és tanító jellegű visszajelzések
-
-\- könnyen bővíthető felépítés
-
-
+- moduláris feladatgenerátor
+- UI és logika szétválasztása
+- könnyen bővíthető struktúra
+- tanító jellegű hibakezelés
 
 ---
 
+## ⚫⚪ Othello / XXOO — AI és algoritmusok
 
+**Platform:** Windows (Visual Studio)  
+**Nyelv:** C#
 
-\## ⚫⚪ Othello / XXOO — algoritmikus gondolkodás
+Két klasszikus logikai játék, fejlett döntési logikákkal.
 
+### Othello
+- optimalizált, de verhető AI  
+- pozícióértékelés  
+- lépésoptimalizálás  
+- szabályellenőrzés és végjáték felismerés  
 
+### XXOO (tic-tac-toe)
+- gyakorlatilag verhetetlen  
+- döntési fa / minimax koncepció  
+- minden állapot optimális kezelése  
 
-\*\*Platform:\*\* Windows (Visual Studio)  
+### Fejlesztői fókusz
 
-\*\*Nyelv:\*\* C#
-
-
-
-Két logikai játék egy projektben.
-
-
-
-\### Othello
-
-\- optimalizált, de verhető AI
-
-\- pozícióértékelés
-
-\- lépésoptimalizálás
-
-\- szabályellenőrzés és végállapot kezelés
-
-
-
-\### XXOO (tic-tac-toe fejlettebb módon)
-
-\- gyakorlatilag \*\*verhetetlen\*\*
-
-\- döntési fa logika
-
-\- minden állapot optimális kezelése
-
-
-
-\### 👨‍💻 Fejlesztői fókusz
-
-\- AI döntéshozatali logikák
-
-\- játékállapot mentés / visszaállítás
-
-\- robusztus szabálykezelés
-
-\- tesztelhető, tiszta kódszerkezet
-
-
+- AI döntéshozatal
+- játékállapot mentés / visszaállítás
+- stabil szabályrendszer
+- tiszta, tesztelhető kódszerkezet
 
 ---
 
+## ♟️ Sakk — kétjátékos, időméréssel
 
-
-\## ♟️ Sakk — kétjátékos mód időméréssel
-
-
-
-\*\*Platform:\*\* Visual Studio  
-
-\*\*Nyelv:\*\* C#
-
-
+**Platform:** Visual Studio  
+**Nyelv:** C#
 
 Teljes, szabályos sakkjáték, két játékos számára.
 
+### Fő funkciók
 
+- teljes szabálykészlet
+- lehetséges lépések vizuális jelölése
+- időmérés mindkét játékosnak
+- sakk / matt felismerése
+- érvénytelen lépések tiltása
 
-\### 🎯 Fő funkciók
+### Fejlesztői fókusz
 
-\- teljes szabálykészlet implementálva
-
-\- lehetséges lépések vizuális jelölése
-
-\- időmérés mindkét játékosnak
-
-\- sakk / matt felismerése
-
-\- érvénytelen lépések tiltása
-
-
-
-\### 👨‍💻 Fejlesztői fókusz
-
-\- komplex szabályrendszer megvalósítása
-
-\- UI és játéklogika szétválasztása
-
-\- állapotkezelés és validáció
-
-\- felhasználói élmény tudatos fejlesztése
-
-
+- komplex szabályrendszer megvalósítása  
+- játéklogika és UI szétválasztása  
+- állapotkezelés és validáció  
+- felhasználóbarát visszajelzések  
 
 ---
 
+## 🎯 Mit mutatnak ezek a projektek rólam?
 
-
-\## 🎯 Mit mutatnak ezek a projektek rólam?
-
-
-
-\- erős algoritmikus és logikai gondolkodás
-
-\- önálló tervezés és megvalósítás
-
-\- termék-szemlélet (nem csak kód)
-
-\- UX-re és részletekre való odafigyelés
-
-\- hibakezelés és stabilitás
-
-\- folyamatos tanulás és fejlesztés
-
-
+- erős algoritmikus és logikai gondolkodás  
+- önálló tervezés és fejlesztés  
+- termék-szemlélet (nem csak kód)  
+- UX-re és részletekre való odafigyelés  
+- stabilitás és hibakezelés  
+- folyamatos tanulás  
 
 ---
 
+## 📩 Kapcsolat
 
-
-\## 🚀 Tervek a jövőre
-
-
-
-\- AI továbbfejlesztés több játékban
-
-\- jobb grafika és UX
-
-\- dokumentáció bővítése
-
-\- mobil verziók kipróbálása több projektnél
-
-
-
----
-
-
-
-\## 📩 Kapcsolat
-
-
-
-Fejlesztő: \*\*Horváth János\*\*
-
-
-
-
-
+Fejlesztő: **Horváth János**
