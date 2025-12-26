@@ -1,0 +1,9 @@
+Albert: 2
+Legakosabb: 2
+Janos: 1
+MP: 1
+MSE: 1
+Zsolt: 1
+masodik: 1
+J?nos: 1
+János: 1
